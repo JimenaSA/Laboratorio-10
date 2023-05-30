@@ -1,0 +1,97 @@
+body{
+    margin: 0;    
+    position: absolute;
+    height: 100%;
+    width: 100%;    
+}
+.contenedor{
+    height: 100%;
+    width: 100%;    
+}
+.barrasuperior {
+    position: absolute;
+    width: 1509px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+    background: #F9CB00;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 27px;
+}
+.contenido{    
+    height: 100%;
+}
+.cajaLogin {
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    padding: 80px;
+    margin-left: 153px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 300px;
+    top: 16%;
+    left: 25%;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    gap: 10px;
+    padding: 25px;
+}
+input{
+    background: #FFFFFF;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+    height: 40px;
+    text-indent: 15px;
+}
+.botones {
+    display: flex;
+    flex-direction: column;
+    background-position-y: center;
+    text-align: center;
+    align-items: center;    
+}
+.btnLogin {
+    background: #F9CB00;
+    border: 1px solid #f0c711;    
+    box-shadow: 3px 4px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    max-width: 90px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    min-width: 170px;
+    font-size: 16px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
+.botones a{
+    padding-top: 8px;
+    justify-content: center;
+    color: blue;
+    font-size: 15px;
+    font-family: "Gill Sans Extrabold", sans-serif;
+}
